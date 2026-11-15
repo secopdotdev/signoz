@@ -7,17 +7,17 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
-pytest = "^8.3.5"
+pytest = "^9.0.3"
 psycopg2 = "^2.9.10"
 testcontainers = "^4.10.0"
-black = "^25.1.0"
+black = "^26.10.1"
 clickhouse-driver = "^0.2.9"
-requests = "^2.32.3"
+requests = "^2.33.0"
 wiremock = "^2.6.1"
 
 
 [tool.poetry.group.dev.dependencies]
-pylint = "^3.3.6"
+pylint = "^4.0.9"
 isort = "^6.0.1"
 autoflake = "^2.3.1"
 
